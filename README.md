@@ -7,5 +7,5 @@
   To kill this program, please open "Task manager", and find the program in the background processes and end it.  
   
 ### For the Unix  
-  First, please download 'dontSleep_unix.cpp' and compile it. Second, put the program at the dist that you want to prevent from sleeping. Finally, open terminal, go to the folder that store the program, then type "./program_name &" to make the program running in the background.   
+  First, please download 'dontSleep_unix.cpp' and compile it. Second, put the program at the dist that you want to prevent from sleeping. Finally, open terminal, go to the folder that store the program, then type ``./program_name &`` to make the program running in the background.   
   To kill this program, please open activity monitor and find the program to kill.  
