@@ -8,9 +8,10 @@ int main() {
 	ShowWindow(GetConsoleWindow(), SW_HIDE);
 	while (true) {
 		ofstream fout;
-		fout.open(".tmp_file");
+		fout.open(".dontsleep");
 		fout << "DontSleep!" << endl;
 		fout.close();
+		system("del .dontsleep");
 		Sleep(120000);
 	}
 	return 0;
